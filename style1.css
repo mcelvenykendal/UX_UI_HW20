@@ -1,0 +1,83 @@
+.hoverMe {
+    grid-area: hover;
+    background-color: blanchedalmond;
+    color: rgb(12, 7, 7);
+    width: 150px;
+    text-align: center; 
+    height: 50px;
+    transition: 0.3s;
+  
+  }
+  .hoverMe:hover {
+    background-color: #657351;
+    color: white;
+  }
+.navbar-brand{
+    color: 657351;
+}
+.emailContain {
+    background: url(../images/emailBG.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    height: 500px;
+}
+form{
+    width:800px;
+    margin: 35px auto;
+    padding: 45px;
+    border: 1px solid #f2f2f2;
+    webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+.HeaderImage{
+    max-width: 500px;
+    height: 300px;
+    padding-right: 100px;
+}
+.overview{
+    margin-left: 50px;
+    padding-top: 20px;
+    margin-right: 60px;
+}
+.stepHeading{
+    padding-bottom: 10px;
+}
+.secondaryStep{
+    margin-top: 16px;
+    margin-left: -50px;
+    padding-top: 32px;
+    padding-left: 95px;
+    background-color: rgb(131, 162, 221);
+
+}
+.image1{
+    margin-top: -48px;
+    margin-bottom: -48px;
+    padding-bottom: 16px;
+    max-height: 300px;
+    margin-left: 24px;
+
+}
+.imagedownarrow{
+    height: 50px;
+    algin-item: center;
+}
+.facts{
+   margin-left: 24px;
+
+}
+.interviewsImage{
+    max-width: 90px;
+}
+.surveyImage{
+    max-width: 70px;
+}
+.carouselimages{
+    width: 200px;
+}
